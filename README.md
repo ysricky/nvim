@@ -5,7 +5,7 @@ My personal Neovim config files
 - [Neovim 0.7.2](https://github.com/neovim/neovim/releases/)
 - clipboard (xclip or wl-clipboard)
 
-### Installation:
+## Installation:
 - Install [Packer](https://github.com/wbthomason/packer.nvim)
 - Run this command:
 ```shell
