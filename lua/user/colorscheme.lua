@@ -1,7 +1,7 @@
-local colorscheme = "dracula" -- or "Tokyonight"
+local colorscheme = "tokyonight" -- or "dracula"
 
 -- vim.g.tokyonight_style = "night" -- different style of tokyonight themes ("storm:default", "night", & "day")
-vim.g.dracula_italic_comment = true
+-- vim.g.dracula_italic_comment = true
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then
