@@ -45,7 +45,8 @@ return packer.startup(function(use)
   use { "nvim-lua/plenary.nvim", commit = "968a4b9afec0c633bc369662e78f8c5db0eba249" } -- Useful lua functions used by lots of plugins
 
   -- Colorschemes
-
+  use "Mofiqul/dracula.nvim"
+  use "folke/tokyonight.nvim"
   -- cmp plugins
 
   -- snippets
